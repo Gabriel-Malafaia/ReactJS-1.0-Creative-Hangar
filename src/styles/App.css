@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #F5F5F5;
+}
+
+.App {
+  display: flex;
+  min-width: 1000px;
+  max-height: 550px;
+}
+
+.App__left,
+.App__right {
+  flex: 1;
+}
+
+.App__left {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.App__left img {
+  width: 30px;
+}
+
+.App__left section{
+  padding: 0 3rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  max-width: 400px;
+  max-height: 110px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 2px rgba(197, 197, 197, 0.603) solid;
+}
+
+.active {
+  transition: ease 0.15s;
+  color: #A730E7;
+  position: relative;
+  left: 50px;
+  box-shadow: 1px 1px 15px rgba(175, 175, 175, 0.527);
+  z-index: 1000;
+  max-height: 130px !important;
+  max-width: 520px !important;
+}
+
+.App__left section div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section__up h2 {
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 0.25s;
+}
+
+.section__up h2:hover {
+  color: #A730E7;
+}
+
+.section__down p {
+  color: black;
+  font-size: 18px;
+}
+
+.section__down img {
+  cursor: pointer;
+}
+
+.App__right img {
+  border-radius: 6px;
+}
+
+.hidden {
+  display: none !important;
+}
