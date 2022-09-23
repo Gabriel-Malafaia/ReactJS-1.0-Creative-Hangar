@@ -1,17 +1,17 @@
 import { useState } from "react";
 import 'animate.css'
 import "./styles/App.css";
-import Card from "./components/card";
+import Card from "./components/Card";
 import CardImage from "./components/CardImage";
-import firstSection from "../public/curated-inspiration 2.png";
-import secondSection from "../public/feedback-illustration.png";
-import thirdSection from "../public/career-consultation 2.png";
-import fourthSection from "../public/portfolio-review 2.png";
-import Icon1 from "../public/Icon1.png";
-import Icon2 from "../public/Icon2.png";
-import Icon3 from "../public/Icon3.png";
-import Icon4 from "../public/Icon4.png";
-import Icon5 from "../public/Icon5.png";
+import firstSection from "./assets/curated-inspiration 2.png";
+import secondSection from "./assets/feedback-illustration.png";
+import thirdSection from "./assets/career-consultation 2.png";
+import fourthSection from "./assets/portfolio-review 2.png";
+import Icon1 from "./assets/Icon1.png";
+import Icon2 from "./assets/Icon2.png";
+import Icon3 from "./assets/Icon3.png";
+import Icon4 from "./assets/Icon4.png";
+import Icon5 from "./assets/Icon5.png";
 
 function App() {
   const [dataBase] = useState([{
