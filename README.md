@@ -9,7 +9,7 @@
 - Animate CSS (Biblioteca)
 
 ## 📱 Preview 
-<p align="center"> - <a href="https://grupo3-front-end-m3.vercel.app/home">Link do projeto</a> </p>
+<p align="center"> - <a href="https://creative-hangar.vercel.app/">Link do projeto</a> </p>
 <br>
 <p align="center">
   <img src="https://i.imgur.com/txAI6Vi.png">
