@@ -5,8 +5,8 @@
 - Projeto Idealizado no começo dos meus estudos em React JS.
 
 ## 💻 Tecnologias
-- React JS
-- Animate CSS (Biblioteca)
+- React JS.
+- Animate CSS (Biblioteca).
 
 ## 📱 Preview 
 <p align="center"> - <a href="https://creative-hangar.vercel.app/">Link do projeto</a> </p>
